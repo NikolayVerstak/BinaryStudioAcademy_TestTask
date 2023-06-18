@@ -102,10 +102,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    /* added myself */
+    width: 150px;
 }
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item {
@@ -172,6 +176,8 @@ body {
 .intro_text {
     color: var(--secondary-text-color);
     text-align: justify;
+    /* added myself */
+    padding-bottom: px;
 }
 
 .skills__header {
