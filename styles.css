@@ -278,6 +278,10 @@ body {
 
 .additional-info {
     flex: 1 1 40%;
+
+    /* added myself */
+    min-height: min-content;
+    max-height: 550px;
 }
 
 .additional-info__education {
