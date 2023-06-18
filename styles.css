@@ -195,16 +195,37 @@ body {
     margin-left: 4px;
 }
 
+/* added myself */
+.main-info {
+    gap: 30px;
+}
+
 /* Experience and additional info styles */
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+
+    /* added myself */
+    margin-right: 0;
 }
 
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-top: 8px;
+}
+
+/* added myself */
+.experiences__company {
+    background-color: rgba(236, 238, 240, 0.5);
+    border: 1px solid rgb(173, 176, 179);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 10px;
+    margin-bottom: 10px;
 }
 
 .experiences__company-header-durability {
@@ -220,11 +241,17 @@ body {
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-bottom: 10px;
 }
 
 .experiences__company-project {
     margin-left: 15px;
     margin-bottom: 25px;
+
+    /* added myself */
+    margin-bottom: 0;
 }
 
 .experiences__company-project-role {
@@ -243,6 +270,10 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+
+    /* added myself */
+    font-size: 12px;
+    text-align: justify
 }
 
 .additional-info {
