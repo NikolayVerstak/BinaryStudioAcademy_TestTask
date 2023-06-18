@@ -56,6 +56,17 @@ body {
         flex-direction: column;
     }
 
+    /* added myself */
+    .resume__block .main-info {
+        gap: 10px
+    }
+
+    /* added myself */
+    .resume__block .additional-info {
+        gap: 16px;
+    }
+
+
     .contact_info_container {
         align-items: center;
     }
@@ -224,7 +235,7 @@ body {
     border: 1px solid rgb(173, 176, 179);
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 4px 10px;
+    padding: 4px 14px 4px 10px;
     margin-bottom: 10px;
 }
 
@@ -273,14 +284,14 @@ body {
 
     /* added myself */
     font-size: 12px;
-    text-align: justify
+    text-align: justify;
+    margin-bottom: 4px;
 }
 
 .additional-info {
     flex: 1 1 40%;
 
     /* added myself */
-    min-height: min-content;
     max-height: 550px;
 }
 
