@@ -49,7 +49,7 @@ body {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (width <=576px) {
 
     .main-info,
     .contact_info_container {
@@ -102,8 +102,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-    /* added myself */
     width: 150px;
 }
 
@@ -128,8 +126,6 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
-
-    /* added myself */
     align-items: center;
 }
 
@@ -176,24 +172,19 @@ body {
 .intro_text {
     color: var(--secondary-text-color);
     text-align: justify;
-    /* added myself */
-    padding-bottom: px;
+    padding-bottom: 0;
 }
 
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
-
-    /* added myself */
     margin-top: 24px;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
-
-    /* added myself */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -204,8 +195,8 @@ body {
 .skills__text span {
     font-size: 14px;
     padding: 3px 6px;
-    background-color: rgba(236, 238, 240, 0.5);
-    border: 1px solid rgb(173, 176, 179);
+    background-color: #eceef080;
+    border: 1px solid #adb0b3;
     border-radius: 2px;
     box-sizing: border-box;
     border-bottom: 1.5px solid var(--text-decoration-color);
@@ -220,9 +211,6 @@ body {
 /* Experience and additional info styles */
 .experiences {
     flex: 1 1 60%;
-    margin-right: 50px;
-
-    /* added myself */
     margin-right: 0;
 }
 
@@ -230,15 +218,13 @@ body {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
-
-    /* added myself */
     margin-top: 8px;
 }
 
 /* added myself */
 .experiences__company {
-    background-color: rgba(236, 238, 240, 0.5);
-    border: 1px solid rgb(173, 176, 179);
+    background-color: #eceef080;
+    border: 1px solid #adb0b3;
     border-radius: 4px;
     box-sizing: border-box;
     padding: 4px 14px 4px 10px;
@@ -257,17 +243,11 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 20px;
-
-    /* added myself */
     margin-bottom: 10px;
 }
 
 .experiences__company-project {
     margin-left: 15px;
-    margin-bottom: 25px;
-
-    /* added myself */
     margin-bottom: 0;
 }
 
@@ -287,8 +267,6 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
-
-    /* added myself */
     font-size: 12px;
     text-align: justify;
     margin-bottom: 4px;
@@ -296,24 +274,16 @@ body {
 
 .additional-info {
     flex: 1 1 40%;
-
-    /* added myself */
     max-height: 550px;
 }
 
 .additional-info__education {
-    margin-bottom: 20px;
-
-    /* added myself */
     margin-bottom: 10px;
 }
 
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
-
-    /* added myself */
     margin-top: 8px;
     margin-bottom: 16px;
 }
@@ -328,10 +298,7 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-bottom: 10px;
-
-    /* added myself */
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .additional-info__education-university-name {
@@ -339,18 +306,12 @@ body {
 }
 
 .additional-info__languages {
-    margin-bottom: 20px;
-
-    /* added myself */
     margin-bottom: 10px;
 }
 
 .additional-info__languages-header {
     color: var(--secondary-text-color);
     text-align: left;
-    margin-bottom: 20px;
-
-    /* added myself */
     margin-bottom: 10px;
 }
 
