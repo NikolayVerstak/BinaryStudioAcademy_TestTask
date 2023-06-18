@@ -56,6 +56,17 @@ body {
         flex-direction: column;
     }
 
+    /* added myself */
+    .resume__block .main-info {
+        gap: 10px
+    }
+
+    /* added myself */
+    .resume__block .additional-info {
+        gap: 16px;
+    }
+
+
     .contact_info_container {
         align-items: center;
     }
@@ -91,10 +102,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    /* added myself */
+    width: 150px;
 }
 
 .contact-info__block--center {
     justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item {
@@ -113,6 +128,9 @@ body {
     width: 20px;
     display: flex;
     justify-content: center;
+
+    /* added myself */
+    align-items: center;
 }
 
 .contact-info__item-icon path {
@@ -158,29 +176,73 @@ body {
 .intro_text {
     color: var(--secondary-text-color);
     text-align: justify;
+    /* added myself */
+    padding-bottom: px;
 }
 
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+
+    /* added myself */
+    margin-top: 24px;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+
+    /* added myself */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* added myself */
+.skills__text span {
+    font-size: 14px;
+    padding: 3px 6px;
+    background-color: rgba(236, 238, 240, 0.5);
+    border: 1px solid rgb(173, 176, 179);
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-bottom: 1.5px solid var(--text-decoration-color);
+    margin-left: 4px;
+}
+
+/* added myself */
+.main-info {
+    gap: 30px;
 }
 
 /* Experience and additional info styles */
 .experiences {
     flex: 1 1 60%;
     margin-right: 50px;
+
+    /* added myself */
+    margin-right: 0;
 }
 
 .experiences__header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-top: 8px;
+}
+
+/* added myself */
+.experiences__company {
+    background-color: rgba(236, 238, 240, 0.5);
+    border: 1px solid rgb(173, 176, 179);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 4px 14px 4px 10px;
+    margin-bottom: 10px;
 }
 
 .experiences__company-header-durability {
@@ -196,11 +258,17 @@ body {
     text-decoration-line: underline;
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-bottom: 10px;
 }
 
 .experiences__company-project {
     margin-left: 15px;
     margin-bottom: 25px;
+
+    /* added myself */
+    margin-bottom: 0;
 }
 
 .experiences__company-project-role {
@@ -219,20 +287,35 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+
+    /* added myself */
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 4px;
 }
 
 .additional-info {
     flex: 1 1 40%;
+
+    /* added myself */
+    max-height: 550px;
 }
 
 .additional-info__education {
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-bottom: 10px;
 }
 
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .additional-info__education-university-durability {
@@ -246,6 +329,9 @@ body {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+
+    /* added myself */
+    margin-bottom: 0px;
 }
 
 .additional-info__education-university-name {
@@ -254,14 +340,49 @@ body {
 
 .additional-info__languages {
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-bottom: 10px;
 }
 
 .additional-info__languages-header {
     color: var(--secondary-text-color);
     text-align: left;
     margin-bottom: 20px;
+
+    /* added myself */
+    margin-bottom: 10px;
 }
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+/* added myself */
+.additional-info__projects {
+    margin-bottom: 10px;
+}
+
+.additional-info__projects-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__projects-item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 2px;
+}
+
+.additional-info__projects-item {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    width: 145px;
+}
+
+.additional-info__projects-item svg {
+    margin-top: 4px;
 }
